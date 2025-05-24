@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    text = "XD"
+    text = "Leroy es un desgraciado uwu"
     videourl = "static/video.mp4"
     return render_template("index.html", text=text, videourl=videourl)
 
